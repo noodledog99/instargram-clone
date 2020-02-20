@@ -1,0 +1,96 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 980px;
+    width: 100%;
+    margin: 32px auto;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+
+}
+
+.profile-img {
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    border-radius: 50%;
+    margin: 3em;
+    box-sizing: border-box;
+}
+
+.profile-img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #333;
+}
+
+.profile-info {
+    margin-top: 30px;
+}
+
+.profile-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+    width: 100%;
+}
+
+/* .item-top {
+    padding: 0 5px;
+}
+
+.item-top:nth-child(1) {
+    padding-left: 0;
+} */
+
+.profile-top h1 {
+    font-weight: 300;
+}
+
+a.edit {
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: #262626;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+a.gear {
+    max-width: 500px;
+    width: 100%;
+}
+
+.gear i {
+    font-size: 25px;
+    color: #262626;
+}
+
+.profile-center ul {
+    display: flex;
+    padding: 3px 0;
+    margin: 0;
+}
+
+.profile-center li {
+    list-style-type: none;
+    padding-right: 25px;
+}
+
+.profile-bottom{
+    margin-top: 17px;
+}
+
+.profile-bottom p{
+    margin: 5px 0;
+}
